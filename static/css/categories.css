@@ -1,0 +1,14 @@
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+.categories select{
+    width: 120px;
+    height: 50px;
+}
+.categories option{
+    font-family: fantasy;
+    font-size: 16px;
+}
