@@ -9,52 +9,56 @@
 </head>
 <body>
 
-    <div class="title">
-        <h1>
-            CHUCK NORRIS JOKES
-        </h1>
-    </div>
-    <div>
-        <div class="description">
-            <p>
-                Select the category of the <strong>CHUCK NORRIS</strong> jokes you want to obtain from the drop-down menu and then click the button
-            </p>
+    <div class="hero background">
+        <div class="title">
+            <h1>
+                CHUCK NORRIS JOKES
+            </h1>
         </div>
-        <div class="categories">
-            <select id="categorySelect">
-                <option value="empty"></option>
-                <option value="animal">Animal</option>
-                <option value="career">Career</option>
-                <option value="celebrity">Celebrity</option>
-                <option value="dev">Dev</option>
-                <option value="explicit">Explicit</option>
-                <option value="Fashion">Fashion</option>
-                <option value="Food">Food</option>
-                <option value="history">History</option>
-                <option value="money">Money</option>
-                <option value="movie">Movie</option>
-                <option value="music">Music</option>
-                <option value="political">Political</option>
-                <option value="religion">Religion</option>
-                <option value="science">Science</option>
-                <option value="sport">Sport</option>
-                <option value="travel">Travel</option>
-            </select>
+        <div>
+            <div class="description">
+                <p>
+                    Select the category of the <strong>CHUCK NORRIS</strong> jokes you want to obtain from the drop-down menu and then click the button
+                </p>
+            </div>
+            <div class="categories">
+                <select id="categorySelect">
+                    <option value="empty"></option>
+                    <option value="animal">Animal</option>
+                    <option value="career">Career</option>
+                    <option value="celebrity">Celebrity</option>
+                    <option value="dev">Dev</option>
+                    <option value="explicit">Explicit</option>
+                    <option value="Fashion">Fashion</option>
+                    <option value="Food">Food</option>
+                    <option value="history">History</option>
+                    <option value="money">Money</option>
+                    <option value="movie">Movie</option>
+                    <option value="music">Music</option>
+                    <option value="political">Political</option>
+                    <option value="religion">Religion</option>
+                    <option value="science">Science</option>
+                    <option value="sport">Sport</option>
+                    <option value="travel">Travel</option>
+                </select>
+            </div>
         </div>
-    </div>
-    <div class="button">
-        <form action="" method="get">
-            <input type="button" name="btn" id="norrisJokes" value="Log games">
-        </form>
-    </div>
-
-    <p id="joke">
-
-    </p>
+        <div class="button">
+            <form action="" method="get">
+                <input type="button" name="btn" id="norrisJokes" value="Log games">
+            </form>
+        </div>
     
-    <a id="norrisJokes" href="https://api.chucknorris.io/jokes/random"></a>
-    <a id="norrisCategory" href="https://api.chucknorris.io/jokes/random?category={category}"></a>
+        <p id="joke">
+    
+        </p>
+        
+        <a id="norrisJokes" href="https://api.chucknorris.io/jokes/random"></a>
+        <a id="norrisCategory" href="https://api.chucknorris.io/jokes/random?category={category}"></a>
+    
+    </div>
 
+    
     <script src="static/js/logGames.js"></script>
 </body>
 </html>
